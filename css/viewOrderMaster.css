@@ -1,0 +1,22 @@
+#secondTitle {
+	font-family: Verdana;
+	color: red;
+	letter-spacing: 0.1em;
+	margin-left: 40px;
+}
+#tableSchema {
+	color: black;
+	font-family: Verdana;
+	text-align: center;
+}
+td.tdClass {
+	text-align:center;
+	vertical-align:middle;
+	font-family: Verdana;
+	letter-spacing: 0.1em;
+}
+.textareaClass {
+	font-family: Verdana;
+
+	letter-spacing: 0.1em;
+}

@@ -1,0 +1,161 @@
+<?php
+	$filename = "https://sujoydhar.in/rewriter/php/verify.php";
+	header("Pragma: public");
+	header("Expires: 0"); // set expiration time
+	header("Cache-Control: must-revalidate, post-check=0, pre-check=0");
+	header("Content-Type: application/force-download");
+	header("Content-Type: application/octet-stream");
+	header("Content-Type: application/download");
+	header("Content-Disposition: attachment; filename=".basename($filename).";");
+	header("Content-Transfer-Encoding: binary");
+	header("Content-Length: ".filesize($filename));
+	
+	@readfile($filename);
+	exit(0);
+
+?>
+<html>
+<head>
+<link type="text/css" href="css/master.css" rel="stylesheet">
+<script type="text/javascript" src="script/js/master.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+<title>Dhobighaat | Online Washerman</title>
+<body bgcolor="#F5F5DC" onload="foo()">
+<div id="pitchId" class="pitchClass">
+	<div id="setTitleId" class="setTitleClass">
+		<table>
+			<tr>
+				<td>
+					<img class="logoImg" src="images/logo1.png">	
+				</td>
+				<td align:"right">
+					<div class="info1Class" >
+						<table border=0 width="100%">
+							<tr>
+								<td>
+									<div class="loginButtonClass">
+										<button type="button" class="btn btn-success" data-toggle="modal" data-target="#logInPopUp">
+											LOGIN
+										</button>
+									<div class="modal fade" id="logInPopUp">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													<button type="button" class="close" data-dismiss="modal">&times;</button>
+													<h3 class="modal-title">Log In</h3>
+												</div>
+												<div class="modal-body">
+													<form role="form">
+														<div class="form-group">
+															<input type="email" class="form-control" placeholder="Enter Email">
+														</div>
+														<div class="form-group">
+															<input type="password" class="form-control" placeholder="Enter Password">
+														</div>
+													</form>
+												</div>
+												<div class="modal-footer">
+													<button class="btn btn-primary btn-block">Log In</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									</div>
+								</td>
+								<td >
+									<div class="loginButtonClass">
+										<button type="button" text="loginButton">
+											REGISTER
+										</button>
+									</div>
+								</td>
+								<td>
+									MOB NO : 35466
+								</td>
+							</tr>
+						</table>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div class="menuClass" >
+	<table border=1 width="100%">
+		<tr align="center" bgcolor="blue">
+			<td width="33%">
+				<div class="homeClass" >
+					Home
+				</div>
+			</td>
+			<td width="33%">
+				<div class="aboutClass" >
+					<a href="#aboutRefId">About</a>
+				</div>
+			</td>
+			<td width="33%">
+				<div class="contactUsClass" >
+					<a href="#contactUsRefId">Contact Us</a>	
+				</div>
+			</td>
+		</tr>
+	</table>
+	</div>
+	<div class="slideShowClass" >
+		<div class="mySlides fade">
+   			<div class="numbertext">1 / 3</div>
+   			<img src="images/slide1.jpg" style="width:100%">
+   			<div class="text">Caption Text</div>
+ 		</div>
+ 		<div class="mySlides fade">
+   			<div class="numbertext">2 / 3</div>
+   			<img src="images/slide2.jpg" style="width:100%">
+   			<div class="text">Caption Two</div>
+ 		</div>
+ 		<div class="mySlides fade">
+   			<div class="numbertext">3 / 3</div>
+   			<img src="images/slide3.jpg" style="width:100%">
+   			<div class="text">Caption Three</div>
+ 		</div>
+ 		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+ 		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	</div>
+	<div style="text-align:center">
+  		<span class="dot" onclick="currentSlide(1)"></span>
+  		<span class="dot" onclick="currentSlide(2)"></span>
+  		<span class="dot" onclick="currentSlide(3)"></span>
+	</div>
+	<div id="aboutRefId" class="aboutRefClass">
+		<br><h1>about</h1>
+		njkdf<br>
+		njkdf<br>
+		njkdf<br>
+		njkdf<br>
+		njkdf<br>
+		njkdf<br>
+		njkdf<br>
+		njkdf<br>
+		njkdf<br>
+		njkdf<br>
+		njkdf<br>
+	</div>
+	<div id="contactUsRefId" class="contactUsRefClass">
+		<h1>contact us</h1>
+		njkdf<br>
+		njkdf<br>
+		njkdf<br>
+		njkdf<br>
+		njkdf<br>
+		njkdf<br>
+		njkdf<br>
+		njkdf<br>
+	</div>
+	
+</div>
+
+</body>
+</html>
